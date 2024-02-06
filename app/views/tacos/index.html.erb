@@ -1,0 +1,18 @@
+<h1>Mexican Food!!!</h1>
+
+<p> I love tacos </p>
+
+<% fillings = ["Carnitas", "Al Pastor", "Pescado", "Mushroom"] %>
+
+<!--I am a comment -->
+
+<p> We have <%= fillings.count %> tacos </p>
+
+<ul>Tacos<ul>
+
+<ul>
+<% for filling in fillings %>
+
+<li> <%=filling %></li>
+<% end %>
+</ul>
